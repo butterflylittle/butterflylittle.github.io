@@ -1,12 +1,11 @@
 const themeConfig = require("./config/theme/");
 
 module.exports = {
-  base: ".",
   title: "SanseBlog",
   description: "你像风来了又走了，我心满了又空",
-  dest: "docs/.vuepress/dist",
+  // dest: "docs/.vuepress/dist",
   head: [
-    ["link", { rel: "icon", href: "./favicon.ico" }],
+    ["link", { rel: "icon", href: "/favicon.ico" }],
     [
       "meta",
       {
@@ -15,6 +14,7 @@ module.exports = {
       },
     ],
   ],
+
   theme: "reco",
   themeConfig,
   markdown: {
